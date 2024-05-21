@@ -18,8 +18,8 @@ void Show() {
 }
 
 
-int main() {
-
+int main() 
+{
 	 
 	Format f1, f2;
 	
@@ -51,7 +51,6 @@ int main() {
 	rectB.SetFormat(f2);
 	
 	Show();
-
 
 	return 0;
 
