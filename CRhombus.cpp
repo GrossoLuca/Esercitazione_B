@@ -123,7 +123,7 @@ void Rhombus::Init(const Rhombus &r)
 	
 	Init();
 	SetDim(r.diagL,r.diagS);
-	shapef=r.shapef;
+	*shapef=*r.shapef;
 	
 }
 

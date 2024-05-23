@@ -123,7 +123,7 @@ void Quadrilateral::Init(const Quadrilateral &o)
 	sides[1] = o.sides[1]; 
 	sides[2] = o.sides[2]; 
 	sides[3] = o.sides[3];
-	shapef=o.shapef;
+	*shapef=*o.shapef;
 	
 }
 
