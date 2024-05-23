@@ -209,7 +209,12 @@ void Quadrilateral::SetFormat(Format sf)
 /// @param fill fill color 
 void Quadrilateral::SetFill(Color fill) 
 {
-
+	if (fill < 0 || fill > 4)
+	{
+		WarningMessage("Fill Color not valid");
+		shapef->fill=k;
+		return;
+	}
 	shapef->fill=fill;
 
 }
@@ -218,7 +223,12 @@ void Quadrilateral::SetFill(Color fill)
 /// @param outline outline color 
 void Quadrilateral::SetOutline(Color outline) 
 {
-	
+	if (outline < 0 || outline > 4)
+	{
+		WarningMessage("Outline Color not valid");
+		shapef->outline=k;
+		return;
+	}
 	shapef->outline=outline;
 	
 }
