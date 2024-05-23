@@ -10,6 +10,7 @@
 !*.c
 !.gitignore
 !*.txt
+!DoxyFile
 
 # User-specific files
 *.rsuser
