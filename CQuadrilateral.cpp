@@ -2,7 +2,7 @@
  * @file CQuadrilateral.cpp
  * @author Luca Grosso (grossolu@icloud.com)
  * @brief Abstract Base Class of quadrilaterals. Implemented with colors for drawing it. 
- * @brief Implmentation of functions.
+ * @brief Implementation of functions.
  * @date 2024-05-21
  * 
  * 
